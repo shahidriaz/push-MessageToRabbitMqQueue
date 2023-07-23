@@ -1,0 +1,29 @@
+{
+  "name": "push-messagetorabbitmqqueue",
+  "version": "1.0.0",
+  "description": "This package contains a demo demonstrating how to push message to a rabbitMQ queue in node application",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahidriaz/push-MessageToRabbitMqQueue.git"
+  },
+  "author": "Shahid Riaz Bhatti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shahidriaz/push-MessageToRabbitMqQueue/issues"
+  },
+  "homepage": "https://github.com/shahidriaz/push-MessageToRabbitMqQueue#readme",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
